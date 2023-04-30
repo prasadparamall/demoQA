@@ -1,0 +1,10 @@
+testcases\TC0001_TextBox_Test.class
+testcases\TC0003_RadioButton_Test.class
+testcases\OpenBrowser.class
+testcases\TC0005_Buttons_Test.class
+testcases\TC0006_Links_Test.class
+testcases\TC0007_Broken_Links_Images_Test.class
+testcases\TC0002_CheckBox_Test.class
+testcases\TC0009_dynamicProperties_Test.class
+testcases\TC0004_WebTable_Test.class
+testcases\TC0008_Upload_And_Download_Test.class

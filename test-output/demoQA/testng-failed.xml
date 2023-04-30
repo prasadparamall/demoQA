@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demoQA]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestBox(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.TC0001_TextBox_Test">
+        <methods>
+          <include name="textBox_Test_EnterForm" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testcases.TC0001_TextBox_Test -->
+    </classes>
+  </test> <!-- TestBox(failed) -->
+  <test thread-count="5" name="CheckBox(failed)">
+    <classes>
+      <class name="testcases.TC0002_CheckBox_Test">
+        <methods>
+          <include name="checkBox_Test_EnterForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TC0002_CheckBox_Test -->
+    </classes>
+  </test> <!-- CheckBox(failed) -->
+  <test thread-count="5" name="Buttons(failed)">
+    <classes>
+      <class name="testcases.TC0005_Buttons_Test">
+        <methods>
+          <include name="double_right_Click"/>
+        </methods>
+      </class> <!-- testcases.TC0005_Buttons_Test -->
+    </classes>
+  </test> <!-- Buttons(failed) -->
+  <test thread-count="5" name="BrokenLinks(failed)">
+    <classes>
+      <class name="testcases.TC0007_Broken_Links_Images_Test">
+        <methods>
+          <include name="brokenlinks_click_Links" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TC0007_Broken_Links_Images_Test -->
+    </classes>
+  </test> <!-- BrokenLinks(failed) -->
+</suite> <!-- Failed suite [demoQA] -->

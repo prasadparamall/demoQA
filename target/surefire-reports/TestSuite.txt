@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 257.443 s <<< FAILURE! - in TestSuite
+testcases.TC0001_TextBox_Test.textBox_Test_EnterForm[{paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc}](1)  Time elapsed: 5.586 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.TC0001_TextBox_Test.textBox_Test_EnterForm(TC0001_TextBox_Test.java:26)
+
+testcases.TC0001_TextBox_Test.textBox_Test_EnterForm[{paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def}](2)  Time elapsed: 4.335 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.TC0001_TextBox_Test.textBox_Test_EnterForm(TC0001_TextBox_Test.java:26)
+
+testcases.TC0007_Broken_Links_Images_Test.brokenlinks_click_Links[{link2=true, link1=true}](1)  Time elapsed: 19.544 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	 fffffffff expected [https://demoqa.com/] but found [https://demoqa.com/1],
+	seeeeeeee expected [http://the-internet.herokuapp.com/status_codes/500] but found [http://the-internet.herokuapp.com/status_codes/5001]
+	at testcases.TC0007_Broken_Links_Images_Test.brokenlinks_click_Links(TC0007_Broken_Links_Images_Test.java:32)
+

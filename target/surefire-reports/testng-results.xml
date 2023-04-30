@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="41" passed="36" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_36_IST_2023.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_36_IST_2023.jpg><img src=Sun_Apr_30_23_17_36_IST_2023.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_41_IST_2023.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_41_IST_2023.jpg><img src=Sun_Apr_30_23_17_41_IST_2023.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Apr_30_23_20_48_IST_2023.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Apr_30_23_20_48_IST_2023.jpg><img src=Sun_Apr_30_23_20_48_IST_2023.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-30T23:17:10 IST" name="Suite" finished-at="2023-04-30T23:21:24 IST" duration-ms="254208">
+    <groups>
+      <group name="functional">
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@18230356]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@5b11a194]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@56c9bbd8]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@1eb6749b]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4e28bdd1]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@3c435123]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@7a527389]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@c260bdc]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4baf352a]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@18230356]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0001_TextBox_Test.textBox_Test_Click()[pri:1, instance:testcases.TC0001_TextBox_Test@2e11485]" name="textBox_Test_Click" class="testcases.TC0001_TextBox_Test"/>
+        <method signature="TC0001_TextBox_Test.textBox_Test_EnterForm(java.util.Hashtable)[pri:2, instance:testcases.TC0001_TextBox_Test@2e11485]" name="textBox_Test_EnterForm" class="testcases.TC0001_TextBox_Test"/>
+        <method signature="TC0001_TextBox_Test.teardown()[pri:3, instance:testcases.TC0001_TextBox_Test@2e11485]" name="teardown" class="testcases.TC0001_TextBox_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@5b11a194]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0002_CheckBox_Test.teardown()[pri:3, instance:testcases.TC0002_CheckBox_Test@37bd68c3]" name="teardown" class="testcases.TC0002_CheckBox_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@56c9bbd8]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0003_RadioButton_Test.radio_ButtonClick()[pri:1, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" name="radio_ButtonClick" class="testcases.TC0003_RadioButton_Test"/>
+        <method signature="TC0003_RadioButton_Test.radiobuttondata(java.util.Hashtable)[pri:2, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" name="radiobuttondata" class="testcases.TC0003_RadioButton_Test"/>
+        <method signature="TC0003_RadioButton_Test.tear()[pri:3, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" name="tear" class="testcases.TC0003_RadioButton_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@1eb6749b]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0004_WebTable_Test.webtable_Click()[pri:1, instance:testcases.TC0004_WebTable_Test@652a7737]" name="webtable_Click" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="TC0004_WebTable_Test.webtable_enter_Values(java.util.Hashtable)[pri:2, instance:testcases.TC0004_WebTable_Test@652a7737]" name="webtable_enter_Values" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="TC0004_WebTable_Test.webtable_serching_(java.util.Hashtable)[pri:4, instance:testcases.TC0004_WebTable_Test@652a7737]" name="webtable_serching_" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="TC0004_WebTable_Test.tear()[pri:5, instance:testcases.TC0004_WebTable_Test@652a7737]" name="tear" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4e28bdd1]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0005_Buttons_Test.buttons_Click()[pri:1, instance:testcases.TC0005_Buttons_Test@53f48368]" name="buttons_Click" class="testcases.TC0005_Buttons_Test"/>
+        <method signature="TC0005_Buttons_Test.double_right_Click()[pri:2, instance:testcases.TC0005_Buttons_Test@53f48368]" name="double_right_Click" class="testcases.TC0005_Buttons_Test"/>
+        <method signature="TC0005_Buttons_Test.tear()[pri:3, instance:testcases.TC0005_Buttons_Test@53f48368]" name="tear" class="testcases.TC0005_Buttons_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@3c435123]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0006_Links_Test.links_Click()[pri:1, instance:testcases.TC0006_Links_Test@50fe837a]" name="links_Click" class="testcases.TC0006_Links_Test"/>
+        <method signature="TC0006_Links_Test.getLinksText()[pri:2, instance:testcases.TC0006_Links_Test@50fe837a]" name="getLinksText" class="testcases.TC0006_Links_Test"/>
+        <method signature="TC0006_Links_Test.links_test(java.util.Hashtable)[pri:3, instance:testcases.TC0006_Links_Test@50fe837a]" name="links_test" class="testcases.TC0006_Links_Test"/>
+        <method signature="TC0006_Links_Test.tear()[pri:4, instance:testcases.TC0006_Links_Test@50fe837a]" name="tear" class="testcases.TC0006_Links_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@7a527389]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0007_Broken_Links_Images_Test.brokenLinks_Click()[pri:1, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="brokenLinks_Click" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="TC0007_Broken_Links_Images_Test.getBrokenLinks_images_Details()[pri:2, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="getBrokenLinks_images_Details" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="TC0007_Broken_Links_Images_Test.brokenlinks_click_Links(java.util.Hashtable)[pri:3, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="brokenlinks_click_Links" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="TC0007_Broken_Links_Images_Test.tear()[pri:4, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="tear" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@c260bdc]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0008_Upload_And_Download_Test.uploadAndDownload_Click()[pri:1, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" name="uploadAndDownload_Click" class="testcases.TC0008_Upload_And_Download_Test"/>
+        <method signature="TC0008_Upload_And_Download_Test.updateFile_download()[pri:2, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" name="updateFile_download" class="testcases.TC0008_Upload_And_Download_Test"/>
+        <method signature="TC0008_Upload_And_Download_Test.tear()[pri:3, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" name="tear" class="testcases.TC0008_Upload_And_Download_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4baf352a]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0009_dynamicProperties_Test.dynamicProperties_Click()[pri:1, instance:testcases.TC0009_dynamicProperties_Test@1bb1fde8]" name="dynamicProperties_Click" class="testcases.TC0009_dynamicProperties_Test"/>
+        <method signature="TC0009_dynamicProperties_Test.tear()[pri:2, instance:testcases.TC0009_dynamicProperties_Test@1bb1fde8]" name="tear" class="testcases.TC0009_dynamicProperties_Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@18230356]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0001_TextBox_Test.textBox_Test_Click()[pri:1, instance:testcases.TC0001_TextBox_Test@2e11485]" name="textBox_Test_Click" class="testcases.TC0001_TextBox_Test"/>
+        <method signature="TC0001_TextBox_Test.textBox_Test_EnterForm(java.util.Hashtable)[pri:2, instance:testcases.TC0001_TextBox_Test@2e11485]" name="textBox_Test_EnterForm" class="testcases.TC0001_TextBox_Test"/>
+        <method signature="TC0001_TextBox_Test.teardown()[pri:3, instance:testcases.TC0001_TextBox_Test@2e11485]" name="teardown" class="testcases.TC0001_TextBox_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@5b11a194]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0002_CheckBox_Test.teardown()[pri:3, instance:testcases.TC0002_CheckBox_Test@37bd68c3]" name="teardown" class="testcases.TC0002_CheckBox_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@56c9bbd8]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0003_RadioButton_Test.radio_ButtonClick()[pri:1, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" name="radio_ButtonClick" class="testcases.TC0003_RadioButton_Test"/>
+        <method signature="TC0003_RadioButton_Test.radiobuttondata(java.util.Hashtable)[pri:2, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" name="radiobuttondata" class="testcases.TC0003_RadioButton_Test"/>
+        <method signature="TC0003_RadioButton_Test.tear()[pri:3, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" name="tear" class="testcases.TC0003_RadioButton_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@1eb6749b]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0004_WebTable_Test.webtable_Click()[pri:1, instance:testcases.TC0004_WebTable_Test@652a7737]" name="webtable_Click" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="TC0004_WebTable_Test.webtable_enter_Values(java.util.Hashtable)[pri:2, instance:testcases.TC0004_WebTable_Test@652a7737]" name="webtable_enter_Values" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="TC0004_WebTable_Test.webtable_serching_(java.util.Hashtable)[pri:4, instance:testcases.TC0004_WebTable_Test@652a7737]" name="webtable_serching_" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="TC0004_WebTable_Test.tear()[pri:5, instance:testcases.TC0004_WebTable_Test@652a7737]" name="tear" class="testcases.TC0004_WebTable_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4e28bdd1]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0005_Buttons_Test.buttons_Click()[pri:1, instance:testcases.TC0005_Buttons_Test@53f48368]" name="buttons_Click" class="testcases.TC0005_Buttons_Test"/>
+        <method signature="TC0005_Buttons_Test.double_right_Click()[pri:2, instance:testcases.TC0005_Buttons_Test@53f48368]" name="double_right_Click" class="testcases.TC0005_Buttons_Test"/>
+        <method signature="TC0005_Buttons_Test.tear()[pri:3, instance:testcases.TC0005_Buttons_Test@53f48368]" name="tear" class="testcases.TC0005_Buttons_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@3c435123]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0006_Links_Test.links_Click()[pri:1, instance:testcases.TC0006_Links_Test@50fe837a]" name="links_Click" class="testcases.TC0006_Links_Test"/>
+        <method signature="TC0006_Links_Test.getLinksText()[pri:2, instance:testcases.TC0006_Links_Test@50fe837a]" name="getLinksText" class="testcases.TC0006_Links_Test"/>
+        <method signature="TC0006_Links_Test.links_test(java.util.Hashtable)[pri:3, instance:testcases.TC0006_Links_Test@50fe837a]" name="links_test" class="testcases.TC0006_Links_Test"/>
+        <method signature="TC0006_Links_Test.tear()[pri:4, instance:testcases.TC0006_Links_Test@50fe837a]" name="tear" class="testcases.TC0006_Links_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@7a527389]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0007_Broken_Links_Images_Test.brokenLinks_Click()[pri:1, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="brokenLinks_Click" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="TC0007_Broken_Links_Images_Test.getBrokenLinks_images_Details()[pri:2, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="getBrokenLinks_images_Details" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="TC0007_Broken_Links_Images_Test.brokenlinks_click_Links(java.util.Hashtable)[pri:3, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="brokenlinks_click_Links" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="TC0007_Broken_Links_Images_Test.tear()[pri:4, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" name="tear" class="testcases.TC0007_Broken_Links_Images_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@c260bdc]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0008_Upload_And_Download_Test.uploadAndDownload_Click()[pri:1, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" name="uploadAndDownload_Click" class="testcases.TC0008_Upload_And_Download_Test"/>
+        <method signature="TC0008_Upload_And_Download_Test.updateFile_download()[pri:2, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" name="updateFile_download" class="testcases.TC0008_Upload_And_Download_Test"/>
+        <method signature="TC0008_Upload_And_Download_Test.tear()[pri:3, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" name="tear" class="testcases.TC0008_Upload_And_Download_Test"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4baf352a]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="TC0009_dynamicProperties_Test.dynamicProperties_Click()[pri:1, instance:testcases.TC0009_dynamicProperties_Test@1bb1fde8]" name="dynamicProperties_Click" class="testcases.TC0009_dynamicProperties_Test"/>
+        <method signature="TC0009_dynamicProperties_Test.tear()[pri:2, instance:testcases.TC0009_dynamicProperties_Test@1bb1fde8]" name="tear" class="testcases.TC0009_dynamicProperties_Test"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@18230356]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@5b11a194]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@56c9bbd8]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@1eb6749b]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4e28bdd1]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@3c435123]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@7a527389]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@c260bdc]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+        <method signature="OpenBrowser.openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4baf352a]" name="openBrowserAndURL" class="testcases.OpenBrowser"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-04-30T23:17:10 IST" name="TestBox" finished-at="2023-04-30T23:17:42 IST" duration-ms="32589">
+      <class name="testcases.TC0001_TextBox_Test">
+        <test-method signature="textBox_Test_Click()[pri:1, instance:testcases.TC0001_TextBox_Test@2e11485]" started-at="2023-04-30T23:17:29 IST" name="textBox_Test_Click" finished-at="2023-04-30T23:17:30 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textBox_Test_Click -->
+        <test-method signature="textBox_Test_EnterForm(java.util.Hashtable)[pri:2, instance:testcases.TC0001_TextBox_Test@2e11485]" started-at="2023-04-30T23:17:31 IST" name="textBox_Test_EnterForm" data-provider="demoQAdata" finished-at="2023-04-30T23:17:36 IST" duration-ms="4752" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at pages.TC0001_TextBox_Page.textBox_Page_getText(TC0001_TextBox_Page.java:31)
+at testcases.TC0001_TextBox_Test.textBox_Test_EnterForm(TC0001_TextBox_Test.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_36_IST_2023.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_36_IST_2023.jpg><img src=Sun_Apr_30_23_17_36_IST_2023.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- textBox_Test_EnterForm -->
+        <test-method signature="textBox_Test_EnterForm(java.util.Hashtable)[pri:2, instance:testcases.TC0001_TextBox_Test@2e11485]" started-at="2023-04-30T23:17:37 IST" name="textBox_Test_EnterForm" data-provider="demoQAdata" finished-at="2023-04-30T23:17:41 IST" duration-ms="3882" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at pages.TC0001_TextBox_Page.textBox_Page_getText(TC0001_TextBox_Page.java:31)
+at testcases.TC0001_TextBox_Test.textBox_Test_EnterForm(TC0001_TextBox_Test.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_41_IST_2023.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Apr_30_23_17_41_IST_2023.jpg><img src=Sun_Apr_30_23_17_41_IST_2023.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- textBox_Test_EnterForm -->
+        <test-method signature="teardown()[pri:3, instance:testcases.TC0001_TextBox_Test@2e11485]" started-at="2023-04-30T23:17:41 IST" name="teardown" finished-at="2023-04-30T23:17:42 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TC0001_TextBox_Test -->
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@18230356]" started-at="2023-04-30T23:17:10 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:17:27 IST" duration-ms="17199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+    </test> <!-- TestBox -->
+    <test started-at="2023-04-30T23:17:43 IST" name="CheckBox" finished-at="2023-04-30T23:17:58 IST" duration-ms="15263">
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@5b11a194]" started-at="2023-04-30T23:17:43 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:17:57 IST" duration-ms="14619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+      <class name="testcases.TC0002_CheckBox_Test">
+        <test-method signature="teardown()[pri:3, instance:testcases.TC0002_CheckBox_Test@37bd68c3]" started-at="2023-04-30T23:17:57 IST" name="teardown" finished-at="2023-04-30T23:17:58 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TC0002_CheckBox_Test -->
+    </test> <!-- CheckBox -->
+    <test started-at="2023-04-30T23:17:58 IST" name="RadioButton" finished-at="2023-04-30T23:18:09 IST" duration-ms="11513">
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@56c9bbd8]" started-at="2023-04-30T23:17:58 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:18:06 IST" duration-ms="7919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+      <class name="testcases.TC0003_RadioButton_Test">
+        <test-method signature="radio_ButtonClick()[pri:1, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" started-at="2023-04-30T23:18:06 IST" name="radio_ButtonClick" finished-at="2023-04-30T23:18:07 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radio_ButtonClick -->
+        <test-method signature="radiobuttondata(java.util.Hashtable)[pri:2, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" started-at="2023-04-30T23:18:07 IST" name="radiobuttondata" data-provider="demoQAdata" finished-at="2023-04-30T23:18:09 IST" duration-ms="1325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=true, yes=true, impressive=false}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobuttondata -->
+        <test-method signature="tear()[pri:3, instance:testcases.TC0003_RadioButton_Test@630cb4a4]" started-at="2023-04-30T23:18:09 IST" name="tear" finished-at="2023-04-30T23:18:09 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.TC0003_RadioButton_Test -->
+    </test> <!-- RadioButton -->
+    <test started-at="2023-04-30T23:18:09 IST" name="WebTable" finished-at="2023-04-30T23:19:20 IST" duration-ms="70816">
+      <class name="testcases.TC0004_WebTable_Test">
+        <test-method signature="webtable_Click()[pri:1, instance:testcases.TC0004_WebTable_Test@652a7737]" started-at="2023-04-30T23:18:24 IST" name="webtable_Click" finished-at="2023-04-30T23:18:26 IST" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtable_Click -->
+        <test-method signature="webtable_enter_Values(java.util.Hashtable)[pri:2, instance:testcases.TC0004_WebTable_Test@652a7737]" started-at="2023-04-30T23:18:26 IST" name="webtable_enter_Values" data-provider="demoQAdata" finished-at="2023-04-30T23:18:33 IST" duration-ms="6329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=25, lname=def, email=abc@gmail.com, depertment=IT, salary=8000, fname=abc}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtable_enter_Values -->
+        <test-method signature="webtable_enter_Values(java.util.Hashtable)[pri:2, instance:testcases.TC0004_WebTable_Test@652a7737]" started-at="2023-04-30T23:18:33 IST" name="webtable_enter_Values" data-provider="demoQAdata" finished-at="2023-04-30T23:18:38 IST" duration-ms="5601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=26, lname=stv, email=xyz@gmail.com, depertment=QA, salary=9000, fname=xyz}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtable_enter_Values -->
+        <test-method signature="webtable_serching_(java.util.Hashtable)[pri:4, instance:testcases.TC0004_WebTable_Test@652a7737]" started-at="2023-04-30T23:18:39 IST" name="webtable_serching_" data-provider="demoQAdata" finished-at="2023-04-30T23:18:59 IST" duration-ms="20624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{mfname=abc1, mlname=def1, memail=abc1@gmail.com, smfname=abc1, fname=abc}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtable_serching_ -->
+        <test-method signature="webtable_serching_(java.util.Hashtable)[pri:4, instance:testcases.TC0004_WebTable_Test@652a7737]" started-at="2023-04-30T23:18:59 IST" name="webtable_serching_" data-provider="demoQAdata" finished-at="2023-04-30T23:19:18 IST" duration-ms="18494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{mfname=xyz1, mlname=stv1, memail=xyz1@gmail.com, smfname=xyz1, fname=xyz}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtable_serching_ -->
+        <test-method signature="tear()[pri:5, instance:testcases.TC0004_WebTable_Test@652a7737]" started-at="2023-04-30T23:19:18 IST" name="tear" finished-at="2023-04-30T23:19:20 IST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.TC0004_WebTable_Test -->
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@1eb6749b]" started-at="2023-04-30T23:18:09 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:18:24 IST" duration-ms="14716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+    </test> <!-- WebTable -->
+    <test started-at="2023-04-30T23:19:20 IST" name="Buttons" finished-at="2023-04-30T23:19:37 IST" duration-ms="16942">
+      <class name="testcases.TC0005_Buttons_Test">
+        <test-method signature="buttons_Click()[pri:1, instance:testcases.TC0005_Buttons_Test@53f48368]" started-at="2023-04-30T23:19:32 IST" name="buttons_Click" finished-at="2023-04-30T23:19:32 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttons_Click -->
+        <test-method signature="double_right_Click()[pri:2, instance:testcases.TC0005_Buttons_Test@53f48368]" started-at="2023-04-30T23:19:32 IST" name="double_right_Click" finished-at="2023-04-30T23:19:36 IST" duration-ms="4392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- double_right_Click -->
+        <test-method signature="tear()[pri:3, instance:testcases.TC0005_Buttons_Test@53f48368]" started-at="2023-04-30T23:19:36 IST" name="tear" finished-at="2023-04-30T23:19:37 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.TC0005_Buttons_Test -->
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4e28bdd1]" started-at="2023-04-30T23:19:20 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:19:31 IST" duration-ms="11361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+    </test> <!-- Buttons -->
+    <test started-at="2023-04-30T23:19:37 IST" name="Links" finished-at="2023-04-30T23:20:10 IST" duration-ms="32460">
+      <class name="testcases.TC0006_Links_Test">
+        <test-method signature="links_Click()[pri:1, instance:testcases.TC0006_Links_Test@50fe837a]" started-at="2023-04-30T23:19:45 IST" name="links_Click" finished-at="2023-04-30T23:19:46 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links_Click -->
+        <test-method signature="getLinksText()[pri:2, instance:testcases.TC0006_Links_Test@50fe837a]" started-at="2023-04-30T23:19:46 IST" name="getLinksText" finished-at="2023-04-30T23:19:47 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLinksText -->
+        <test-method signature="links_test(java.util.Hashtable)[pri:3, instance:testcases.TC0006_Links_Test@50fe837a]" started-at="2023-04-30T23:19:47 IST" name="links_test" data-provider="demoQAdata" finished-at="2023-04-30T23:20:09 IST" duration-ms="21803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{nocontent=true, unautorized=true, created=true, home2=true, not_found=true, forbidden=true, home=true, moved=true, badrequest=true}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links_test -->
+        <test-method signature="tear()[pri:4, instance:testcases.TC0006_Links_Test@50fe837a]" started-at="2023-04-30T23:20:09 IST" name="tear" finished-at="2023-04-30T23:20:09 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.TC0006_Links_Test -->
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@3c435123]" started-at="2023-04-30T23:19:37 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:19:45 IST" duration-ms="7942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+    </test> <!-- Links -->
+    <test started-at="2023-04-30T23:20:10 IST" name="BrokenLinks" finished-at="2023-04-30T23:20:49 IST" duration-ms="39043">
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@7a527389]" started-at="2023-04-30T23:20:10 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:20:22 IST" duration-ms="12645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+      <class name="testcases.TC0007_Broken_Links_Images_Test">
+        <test-method signature="brokenLinks_Click()[pri:1, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" started-at="2023-04-30T23:20:22 IST" name="brokenLinks_Click" finished-at="2023-04-30T23:20:24 IST" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinks_Click -->
+        <test-method signature="getBrokenLinks_images_Details()[pri:2, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" started-at="2023-04-30T23:20:24 IST" name="getBrokenLinks_images_Details" finished-at="2023-04-30T23:20:28 IST" duration-ms="4627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrokenLinks_images_Details -->
+        <test-method signature="brokenlinks_click_Links(java.util.Hashtable)[pri:3, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" started-at="2023-04-30T23:20:28 IST" name="brokenlinks_click_Links" data-provider="demoQAdata" finished-at="2023-04-30T23:20:48 IST" duration-ms="19186" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{link2=true, link1=true}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+ fffffffff expected [https://demoqa.com/] but found [https://demoqa.com/1],
+seeeeeeee expected [http://the-internet.herokuapp.com/status_codes/500] but found [http://the-internet.herokuapp.com/status_codes/5001]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+ fffffffff expected [https://demoqa.com/] but found [https://demoqa.com/1],
+seeeeeeee expected [http://the-internet.herokuapp.com/status_codes/500] but found [http://the-internet.herokuapp.com/status_codes/5001]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at pages.TC0007_BrokenLinks_Page.click_Links(TC0007_BrokenLinks_Page.java:126)
+at testcases.TC0007_Broken_Links_Images_Test.brokenlinks_click_Links(TC0007_Broken_Links_Images_Test.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Apr_30_23_20_48_IST_2023.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Apr_30_23_20_48_IST_2023.jpg><img src=Sun_Apr_30_23_20_48_IST_2023.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- brokenlinks_click_Links -->
+        <test-method signature="tear()[pri:4, instance:testcases.TC0007_Broken_Links_Images_Test@485a3466]" started-at="2023-04-30T23:20:48 IST" name="tear" finished-at="2023-04-30T23:20:49 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.TC0007_Broken_Links_Images_Test -->
+    </test> <!-- BrokenLinks -->
+    <test started-at="2023-04-30T23:20:49 IST" name="upload and download" finished-at="2023-04-30T23:21:09 IST" duration-ms="20150">
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@c260bdc]" started-at="2023-04-30T23:20:49 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:21:01 IST" duration-ms="12335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+      <class name="testcases.TC0008_Upload_And_Download_Test">
+        <test-method signature="uploadAndDownload_Click()[pri:1, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" started-at="2023-04-30T23:21:01 IST" name="uploadAndDownload_Click" finished-at="2023-04-30T23:21:02 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadAndDownload_Click -->
+        <test-method signature="updateFile_download()[pri:2, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" started-at="2023-04-30T23:21:02 IST" name="updateFile_download" finished-at="2023-04-30T23:21:07 IST" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateFile_download -->
+        <test-method signature="tear()[pri:3, instance:testcases.TC0008_Upload_And_Download_Test@75e01201]" started-at="2023-04-30T23:21:07 IST" name="tear" finished-at="2023-04-30T23:21:09 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.TC0008_Upload_And_Download_Test -->
+    </test> <!-- upload and download -->
+    <test started-at="2023-04-30T23:21:09 IST" name="dynamicpropeties" finished-at="2023-04-30T23:21:24 IST" duration-ms="15321">
+      <class name="testcases.TC0009_dynamicProperties_Test">
+        <test-method signature="dynamicProperties_Click()[pri:1, instance:testcases.TC0009_dynamicProperties_Test@1bb1fde8]" started-at="2023-04-30T23:21:18 IST" name="dynamicProperties_Click" finished-at="2023-04-30T23:21:23 IST" duration-ms="5334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicProperties_Click -->
+        <test-method signature="tear()[pri:2, instance:testcases.TC0009_dynamicProperties_Test@1bb1fde8]" started-at="2023-04-30T23:21:23 IST" name="tear" finished-at="2023-04-30T23:21:24 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.TC0009_dynamicProperties_Test -->
+      <class name="testcases.OpenBrowser">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcases.OpenBrowser@4baf352a]" started-at="2023-04-30T23:21:09 IST" name="openBrowserAndURL" finished-at="2023-04-30T23:21:18 IST" duration-ms="9285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowser -->
+    </test> <!-- dynamicpropeties -->
+  </suite> <!-- Suite -->
+</testng-results>
