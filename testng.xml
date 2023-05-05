@@ -13,7 +13,9 @@
 <listener class-name="listenersClass.CustomListeners"></listener>
 </listeners>
 
-    
+ 
+  
+  <!--   
     <test name="TestBox">
     <classes>
     <class name="testcases.OpenBrowser"/>
@@ -35,7 +37,7 @@
     </classes>
   </test> 
   
-   <test name="WebTable">
+  <test name="WebTable">
     <classes>
      <class name="testcases.OpenBrowser"/>
       <class name="testcases.TC0004_WebTable_Test"/>
@@ -77,6 +79,16 @@
     </classes>
   </test>  
   
+  
+ <test name="Practiesform">
+    <classes>
+    <class name="testcases.OpenBrowser"/>
+    <class name="testcases.TC0010_PractiesForm_Test"/>
+    </classes>
+  </test> 
+  
+  -->
+   
   
   
   

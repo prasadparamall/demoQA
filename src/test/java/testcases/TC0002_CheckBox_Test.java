@@ -29,7 +29,7 @@ public class TC0002_CheckBox_Test {
 				data.get("classified"), data.get("general"),
 				data.get("wordfile"), data.get("excelfile"));
 		
-		cb.textBox_Page_getText();
+		cb.checkBox_Page_getText();
 		
 	}
 	

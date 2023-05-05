@@ -23,13 +23,13 @@ public class TC0004_WebTable_Test {
 		wb.enterValues(data.get("fname"), data.get("lname"), data.get("email"), data.get("age"), data.get("salary"), data.get("depertment"));
 	}
 	
-//	@Test(priority = 3)
-//	public void print_Table() throws Exception {
-//		TC0004_WebTable_Page wb = new TC0004_WebTable_Page();
-//		wb.print_Table();
-//	}
-	
-	
+	@Test(priority = 3,groups = {"smoke","regression"})
+	public void print_After_Table() throws Exception {
+		TC0004_WebTable_Page wb = new TC0004_WebTable_Page();
+		wb.print_After_Adding_Values();
+	}
+
+
 	@Test(priority = 4,groups = {"smoke","regression"}, dataProviderClass = Utilities.class, dataProvider="demoQAdata")
 	public void webtable_serching_(Hashtable<String, String> data) throws Exception {
 		TC0004_WebTable_Page wb = new TC0004_WebTable_Page();
@@ -37,8 +37,16 @@ public class TC0004_WebTable_Test {
 	}
 	
 	@Test(priority = 5,groups = {"smoke","regression"})
-	public void tear() {
+	public void print_After_Deleted_Table() throws Exception {
+		TC0004_WebTable_Page wb = new TC0004_WebTable_Page();
+		wb.print_Table();
+	}
+	
+	
+	@Test(priority = 6,groups = {"smoke","regression"})
+	public void teardown() {
 		BaseClass.tear();
 	}
+
 
 }

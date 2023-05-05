@@ -13,8 +13,10 @@ public class TC0002_CheckBox_Page extends BaseClass {
 	
 	public void checkBox_Page_Click() throws Exception {
 		clickJS("checkboxbtn_xpath");
+		log.info("click checkbox button");
 		Thread.sleep(1000);
 		clickJS("clickhomedropdown_xpath");
+		log.info("click home dropdown button");
 		Thread.sleep(1000);
 	}
 	
@@ -24,7 +26,8 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			String react, String angular, String veu , String Private,
 			String Public, String Classified, String General,
 			String Word_File_doc, String Excel_File_doc) throws Exception {
-
+		
+		
 		Thread.sleep(1000);
 
 		List<WebElement> dd2 = getElements("clickddddropdownCommon_xpath");
@@ -33,6 +36,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 		case "true":
 			for (int j = 0; j <= dd2.size(); j++) {
 				dd2.get(0).click();
+				log.info("click desktop");
 				break;
 			}
 
@@ -48,6 +52,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 		case "true":
 			for (int k = 0; k <= dd2.size(); k++) {
 				dd2.get(1).click();
+				log.info("click documents");
 				break;
 			}
 
@@ -63,6 +68,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 		case "true":
 			for (int l = 0; l <= dd2.size(); l++) {
 				dd2.get(2).click();
+				log.info("click downloads");
 				break;
 			}
 
@@ -82,6 +88,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 		case "true":
 			for (int m = 0; m <= dd4.size(); m++) {
 				dd4.get(0).click();
+				log.info("click workspace");
 				break;
 			}
 
@@ -100,6 +107,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd4.size(); n++) {
 				WebElement gg = dd4.get(1);
 				clickJSValue(gg);
+				log.info("click office");
 				break;
 			}
 
@@ -120,6 +128,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(0);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -138,6 +147,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(1);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -156,6 +166,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(2);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -174,6 +185,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(3);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -192,6 +204,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(4);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -210,6 +223,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(5);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -228,6 +242,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(6);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -246,6 +261,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(7);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -264,6 +280,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(8);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -282,6 +299,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(9);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -300,6 +318,7 @@ public class TC0002_CheckBox_Page extends BaseClass {
 			for (int n = 0; n <= dd5.size(); n++) {
 				WebElement gg = dd5.get(10);
 				clickJSValue(gg);
+				log.info("click workspace");
 				break;
 			}
 
@@ -317,15 +336,9 @@ public class TC0002_CheckBox_Page extends BaseClass {
 
 	
 	
-	public void textBox_Page_getText() {
-		List<WebElement> gette = getElements("comm_gettext_xpath");
-		Iterator<WebElement> dd = gette.iterator();
-		
-		while(dd.hasNext()) {
-			String cc = dd.next().getText();
-			System.out.println(cc);
-		}
-	
+	public void checkBox_Page_getText() {
+		iteratorgetText1("comm_gettext_xpath");
+		log.info("print checkbox detatils");
 		Assert.assertTrue(false);
 	}
 

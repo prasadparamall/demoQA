@@ -20,11 +20,13 @@ public class TC0006_Links_Page extends BaseClass{
 	
 	public void linksButton_Click() throws Exception {
 		clickJS("links_xpath");
+		log.info("click linksbutton");
 	}
 
 	public void getTextAll_Links() throws Exception {
 		
 		iteratorgetText("alllinks_xpath");
+		log.info("getText to links");
 	}
 	
 	public void Click_Home_Links(String home,  String home2) throws Exception {
@@ -35,6 +37,7 @@ public class TC0006_Links_Page extends BaseClass{
 		case "true":
 			for (int j = 0; j <= dd2.size(); j++) {
 				dd2.get(0).click();
+				log.info("click home");
 				break;
 			}
 			Thread.sleep(1000);
@@ -50,12 +53,14 @@ public class TC0006_Links_Page extends BaseClass{
 					driver.switchTo().window(child);
 					String ex = "DEMOQA";
 					Assert.assertEquals(ex, driver.getTitle());
+					log.info("verifie assertions getTiltle");
 					System.out.println(driver.getTitle());
 					
 					Thread.sleep(1000);
 					driver.close();
 				}
 				driver.switchTo().window(main);
+				log.info("switching to main windows");
 			}
 			
 
@@ -71,6 +76,7 @@ public class TC0006_Links_Page extends BaseClass{
 		case "true":
 			for (int k = 0; k <= dd2.size(); k++) {
 				dd2.get(1).click();
+				log.info("click home2");
 				break;
 			}
 			
@@ -86,12 +92,14 @@ public class TC0006_Links_Page extends BaseClass{
 					driver.switchTo().window(child);
 					String ex = "DEMOQA";
 					Assert.assertEquals(ex, driver.getTitle());
+					log.info("verify getTitle");
 					System.out.println(driver.getTitle());
 					
 					Thread.sleep(1000);
 					driver.close();
 				}
 				driver.switchTo().window(main);
+				log.info("switching to main windows");
 			}
 
 
@@ -115,6 +123,7 @@ public class TC0006_Links_Page extends BaseClass{
 			for (int i = 0; i <= dd3.size(); i++) {
 				WebElement aa = dd3.get(2);
 				clickJSValue(aa);
+				log.info("click created");
 				break;
 			}
 			Thread.sleep(1000);
@@ -134,6 +143,7 @@ public class TC0006_Links_Page extends BaseClass{
 			for (int j = 0; j <= dd3.size(); j++) {
 				WebElement bb = dd3.get(3);
 				clickJSValue(bb);
+				log.info("click nocontent");
 				break;
 			}
 			Thread.sleep(1000);
@@ -152,6 +162,7 @@ public class TC0006_Links_Page extends BaseClass{
 			for (int k = 0; k <= dd3.size(); k++) {
 				WebElement cc = dd3.get(4);
 				clickJSValue(cc);
+				log.info("click moved");
 				break;
 			}
 			Thread.sleep(1000);
@@ -171,6 +182,7 @@ public class TC0006_Links_Page extends BaseClass{
 			for (int l = 0; l <= dd3.size(); l++) {
 				WebElement dd = dd3.get(5);
 				clickJSValue(dd);
+				log.info("click badrequest");
 				break;
 			}
 			Thread.sleep(1000);
@@ -190,6 +202,7 @@ public class TC0006_Links_Page extends BaseClass{
 			for (int m = 0; m <= dd3.size(); m++) {
 				WebElement ee = dd3.get(6);
 				clickJSValue(ee);
+				log.info("click unautorized");
 				break;
 			}
 			Thread.sleep(1000);
@@ -209,6 +222,7 @@ public class TC0006_Links_Page extends BaseClass{
 			for (int n = 0; n <= dd3.size(); n++) {
 				WebElement ff = dd3.get(7);
 				clickJSValue(ff);
+				log.info("click forbidden");
 				break;
 			}
 			Thread.sleep(1000);
@@ -228,6 +242,7 @@ public class TC0006_Links_Page extends BaseClass{
 			for (int o = 0; o <= dd3.size(); o++) {
 				WebElement gg = dd3.get(8);
 				clickJSValue(gg);
+				log.info("click notfound");
 				break;
 			}
 			Thread.sleep(1000);

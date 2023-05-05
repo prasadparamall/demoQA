@@ -1,5 +1,7 @@
 package base;
 
+import java.awt.AWTException;
+import java.awt.Robot;
 import java.io.FileInputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -208,6 +210,39 @@ public class BaseClass {
 
 	}
 	
+	static List<WebElement> locats1;
+	public List<WebElement> iteratorgetText1(String commanlocatorkey) {
+		
+	locats1 = getElements(commanlocatorkey);
+	Iterator<WebElement> dd = locats1.iterator();
+	
+	while(dd.hasNext()) {
+		String cc = dd.next().getText();
+		System.out.println(cc);
+	}
+	return locats1;
+}
+	
+	public void printTable(String locators, String c1, String c2){
+		
+		List<WebElement> tablerows = getElements(locators);
+		String columf = c1;
+		String colums = c2;
+		String column;
+		List<WebElement> tablecolumns;
+
+		for (int i = 1; i < tablerows.size(); i++) {
+			column = columf + i + colums;
+
+			tablecolumns = driver.findElements(By.xpath(column));
+
+			for (int j = 0; j < tablecolumns.size(); j++) {
+				System.out.print(tablecolumns.get(j).getText() + "  ,  ");
+			}
+			System.out.println();
+		}
+	}
+	
 	public String singlegetText(String locatorkey) {
 		String tx = getElement(locatorkey).getText();
 		System.out.println(tx);
@@ -218,6 +253,20 @@ public class BaseClass {
 		Select select1 = new Select(getElement(locatorkey));
 
 		return select1;
+	}
+	
+	static WebElement dropdown;
+	public void selectVT(String xpath, String value) {
+			dropdown = getElement(xpath);
+		
+		Select select1 = new Select(dropdown);
+		select1.selectByVisibleText(value);
+
+	}
+	
+	public static Robot robot() throws Exception {
+		Robot robot1 = new Robot();
+		return robot1;
 	}
 
 	static WebElement doubluclick;
